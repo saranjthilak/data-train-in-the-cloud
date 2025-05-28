@@ -299,8 +299,8 @@ def pred(X_pred: pd.DataFrame = None) -> np.ndarray:
 if __name__ == '__main__':
     try:
         preprocess_and_train()
-        # preprocess()
-        # train()
+        preprocess()
+        train()
         pred()
     except:
         import sys
