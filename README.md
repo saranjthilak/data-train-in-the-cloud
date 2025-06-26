@@ -6,6 +6,27 @@ In the previous unit, you have **packaged** 📦 the notebook of the _WagonCab_ 
 
 💪 As you can (in theory) now access a machine with the RAM-size of your choice, we'll consider that you don't need any "chunk-by-chunk" logic anymore!
 
+# ☁️ Train in the Cloud: Scalable Model Training on GCP
+
+This project demonstrates how to set up and run machine learning model training in the **cloud** using **Google Cloud Platform (GCP)**. It walks through creating infrastructure, preparing data, and executing training jobs remotely—ideal for scaling beyond local hardware limitations.
+
+## 🎯 Objectives
+
+- Set up a cloud-based training environment using GCP services.
+- Configure training pipelines for machine learning workflows.
+- Deploy and monitor jobs on virtual machines or managed services.
+- Automate infrastructure with Infrastructure as Code (IaC) using Terraform.
+
+## 🛠️ Tech Stack
+
+- **Google Cloud Platform (GCP)**
+  - Compute Engine
+  - Cloud Storage
+- **Terraform** (for infrastructure provisioning)
+- Python 3.x
+- Jupyter Notebook
+- Scikit-learn / TensorFlow / PyTorch (depending on model)
+
 🎯 Today, you will refactor the previous unit's codebase and:
 - Fetch all your environment variables from a single `.env` file instead of updating `params.py`
 - Load the raw data from Le Wagon BigQuery in one go in memory (no chunks)
